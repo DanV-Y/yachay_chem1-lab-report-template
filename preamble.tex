@@ -1,0 +1,62 @@
+\usepackage{amssymb} 
+\usepackage[spanish, es-tabla]{babel}
+\usepackage[labelfont=bf]{caption} 
+\captionsetup[table]{skip=5pt}
+%\usepackage{cmbright} 
+%\usepackage{datetime2}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+%\usepackage{helvet}
+\usepackage{hyperref}
+%\usepackage{ifthen}
+\usepackage[utf8]{inputenc}
+\usepackage[version=4]{mhchem}
+\usepackage{multirow}
+\usepackage{physics}
+\usepackage{tabularx}
+\usepackage{tocloft}
+%\usepackage{totcount}
+\usepackage{wasysym}
+\usepackage[dvipsnames]{xcolor}
+
+\renewcommand\tabularxcolumn[1]{m{#1}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\setlength\parindent{0pt}
+\renewcommand{\arraystretch}{1.5}
+\renewcommand{\cfttoctitlefont}{\hspace*{\fill}\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\hspace*{\fill}}
+
+\pagestyle{headandfoot}
+\firstpageheader{}{}{}
+\runningheader{}{}{{\fontfamily{phv}\selectfont 
+\scriptsize Química 1 Laboratorio \\ IS2024}}
+\firstpagefooter{{\fontfamily{phv}\selectfont 
+\scriptsize Química 1 Laboratorio \\ IS2024}}{}{}
+\runningfooter{{\fontfamily{phv}\selectfont 
+\scriptsize Química 1 Laboratorio \\ IS2024}}{}{\thepage}
+
+\makeatletter
+\def\@maketitle{%
+\null
+\vspace{6cm}
+\begin{center}
+\textsc{\LARGE \textbf{Practica 3.}}\\\vspace{.75cm}
+\textsc{\LARGE \textbf{Reconocimiento y Uso}}\\\vspace{.75cm}
+\textsc{\LARGE \textbf{del Material en el Laboratorio}}\\
+\end{center}
+\vspace{2cm}
+\begin{center}
+\begin{minipage}{0.3\linewidth}
+    \textsc{Grupo:} \noindent\rule{3cm}{0.1pt}\\[10pt]
+    \textsc{Paralelo:} \noindent\rule{2.4cm}{0.1pt}\\[10pt]
+    \textsc{Integrantes:}\\[10pt]
+    \noindent\rule{9cm}{0.1pt}\\[10pt]
+    \noindent\rule{9cm}{0.1pt}\\[10pt]
+    \noindent\rule{9cm}{0.1pt}\\[10pt]
+  \end{minipage}
+\end{center}
+}
+\makeatother
