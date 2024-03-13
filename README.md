@@ -1,6 +1,5 @@
-# Yachay Tech University
-## Chemistry 1 (Laboratory)
-## Template for post-lab reports
+# Yachay Tech University - Chemistry 1 (Laboratory)
+--- Template for post-lab reports ---
 
 Daniel Villarruel
 
